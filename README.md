@@ -2,6 +2,7 @@
 
 This is a responsive frontend web application for a restaurant.
 How beautiful and modern the website of the restaurant could look.
+Please see this application click here [Delicious](https://katebond06.github.io/delicious/)
 
 ## usage:
 
