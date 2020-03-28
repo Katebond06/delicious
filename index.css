@@ -7,11 +7,28 @@
   background-size: cover;
 }
 
-.nav-link {
+.col-12 {
+  margin-top: 350px;
+  margin-bottom: auto;
+  display: inline-block;
+  font-family: "Dancing Script", cursive;
+  color: bisque;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.nav-link,
+.fab {
   color: #000000;
 }
 .nav-link :hover {
   color: rgb(158, 80, 158);
+}
+.fab :hover {
+  color: red;
 }
 
 /* slide show header */
@@ -101,4 +118,10 @@ img {
   .text {
     font-size: 11px;
   }
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(252, 252, 252);
 }
