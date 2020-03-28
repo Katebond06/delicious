@@ -8,27 +8,46 @@
 }
 
 .col-12 {
-  margin-top: 350px;
+  margin-top: 300px;
   margin-bottom: auto;
   display: inline-block;
   font-family: "Dancing Script", cursive;
-  color: bisque;
+  color: black;
   text-align: center;
+  animation-name: food;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
 
-h1 {
-  font-weight: 600;
+@keyframes food {
+  0% {
+    color: black;
+  }
+  25% {
+    color: rgb(168, 86, 9);
+  }
+  50% {
+    color: rgb(241, 68, 68);
+  }
+  100% {
+    color: rgb(197, 44, 72);
+  }
 }
+
+/* h1 {
+  font-weight: 500;
+  font-variant: unset;
+  font-display: fallback;
+  font-size: 3.5em;
+} */
 
 .nav-link,
 .fab {
   color: #000000;
 }
+
 .nav-link :hover {
   color: rgb(158, 80, 158);
-}
-.fab :hover {
-  color: red;
 }
 
 /* slide show header */
