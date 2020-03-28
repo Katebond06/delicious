@@ -12,7 +12,8 @@
   margin-bottom: auto;
   display: inline-block;
   font-family: "Dancing Script", cursive;
-  color: black;
+  font-weight: 700;
+  color: peachpuff;
   text-align: center;
   animation-name: food;
   animation-duration: 6s;
@@ -21,25 +22,18 @@
 
 @keyframes food {
   0% {
-    color: black;
+    color: peachpuff;
   }
   25% {
-    color: rgb(168, 86, 9);
+    color: rgb(218, 155, 40);
   }
   50% {
-    color: rgb(241, 68, 68);
+    color: gold;
   }
   100% {
-    color: rgb(197, 44, 72);
+    color: goldenrod;
   }
 }
-
-/* h1 {
-  font-weight: 500;
-  font-variant: unset;
-  font-display: fallback;
-  font-size: 3.5em;
-} */
 
 .nav-link,
 .fab {
@@ -103,7 +97,7 @@ img {
 }
 
 .active {
-  background-color: #717171;
+  background-color: #080707;
 }
 
 /* Fading animation */
@@ -137,6 +131,12 @@ img {
   .text {
     font-size: 11px;
   }
+}
+
+#card {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 100%;
 }
 
 .footer {
